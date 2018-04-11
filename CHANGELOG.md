@@ -3,7 +3,7 @@ All notable changes to `vuetify-vscode` will be documented in this file.
 
 ## 0.1.7 - 2018-04-11
 ### Fixed
-- Merged pull request [#1](https://github.com/vuetifyjs/vuetify-vscode/pull/3) for fixing some missing end tags for `v-list` (thanks **@lpj145**)
+- Merged pull request [#3](https://github.com/vuetifyjs/vuetify-vscode/pull/3) for fixing some missing end tags for `v-list` (thanks **@lpj145**)
 
 ## 0.1.6 - 2018-04-10
 ### Fixed
