@@ -102,6 +102,8 @@ and `vBtnToggleTemplateTextIcon` will give you following code.
 
 ## Upcoming features
 - on hover documentation for components and props
+- eslint integration
+
 
 ## Changelog
 <a href="https://github.com/vuetifyjs/vuetify-vscode/blob/master/CHANGELOG.md" target="_blank">Changelog</a>
