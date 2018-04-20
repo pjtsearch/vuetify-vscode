@@ -102,6 +102,9 @@ and `vBtnToggleTemplateTextIcon` will give you following code.
 
 ## Upcoming features
 - on hover documentation for components and props
+- Less dependent on snippets
+- More dependent on Auto Completion
+- Only show relevant props for component
 - eslint integration
 
 
