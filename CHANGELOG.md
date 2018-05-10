@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to `vuetify-vscode` will be documented in this file.
 
+## 0.1.8 - 2018-05-10
+### Fixed
+- `v-avatar` now uses `color` prop instead of `class`
+### Changed
+- logo changed of `vuetify-vscode` (thanks **@danielschmitz**)
+
 ## 0.1.7 - 2018-04-11
 ### Fixed
 - Merged pull request [#3](https://github.com/vuetifyjs/vuetify-vscode/pull/3) for fixing some missing end tags for `v-list` (thanks **@lpj145**)
