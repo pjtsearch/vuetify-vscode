@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to `vuetify-vscode` will be documented in this file.
 
+## 0.1.9 - 2018-05-11
+### Added
+- `galleryBanner` option in package.json
+
 ## 0.1.8 - 2018-05-10
 ### Fixed
 - `v-avatar` now uses `color` prop instead of `class`
