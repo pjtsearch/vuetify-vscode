@@ -7,6 +7,10 @@
     "license": "MIT",
     "version": "0.1.8",
     "publisher": "vuetifyjs",
+    "galleryBanner": {
+        "color": "#1867c0",
+        "theme": "dark"
+    },
     "keywords": [
         "vuetify",
         "vuetifyjs",
