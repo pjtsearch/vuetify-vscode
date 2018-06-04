@@ -27,12 +27,12 @@
       "import colors from 'vuetify/es5/util/colors'",
       "",
       "Vue.use(Vuetify, {",
-      "  theme: {",
-      "    primary: colors.${1|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,blue-grey,grey|}.${2|base,lighten5,lighten4,lighten3,lighten2,lighten1,darken1,darken2,darken3,darken4,accent1,accent2,accent3,accent4|},",
-      "    secondary: colors.${3|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,blue-grey,grey|}.${4|base,lighten5,lighten4,lighten3,lighten2,lighten1,darken1,darken2,darken3,darken4,accent1,accent2,accent3,accent4|},",
-      "    accent: colors.${5|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,blue-grey,grey|}.${6|base,lighten5,lighten4,lighten3,lighten2,lighten1,darken1,darken2,darken3,darken4,accent1,accent2,accent3,accent4|},",
-      "    error: colors.${7|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,blue-grey,grey|}.${8|base,lighten5,lighten4,lighten3,lighten2,lighten1,darken1,darken2,darken3,darken4,accent1,accent2,accent3,accent4|}",
-      "  }",
+      "\ttheme: {",
+      "\t\tprimary: colors.${1|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,blue-grey,grey|}.${2|base,lighten5,lighten4,lighten3,lighten2,lighten1,darken1,darken2,darken3,darken4,accent1,accent2,accent3,accent4|},",
+      "\t\tsecondary: colors.${3|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,blue-grey,grey|}.${4|base,lighten5,lighten4,lighten3,lighten2,lighten1,darken1,darken2,darken3,darken4,accent1,accent2,accent3,accent4|},",
+      "\t\taccent: colors.${5|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,blue-grey,grey|}.${6|base,lighten5,lighten4,lighten3,lighten2,lighten1,darken1,darken2,darken3,darken4,accent1,accent2,accent3,accent4|},",
+      "\t\terror: colors.${7|red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,blue-grey,grey|}.${8|base,lighten5,lighten4,lighten3,lighten2,lighten1,darken1,darken2,darken3,darken4,accent1,accent2,accent3,accent4|}",
+      "\t}",
       "})$0"
     ],
     "description": "Define new theme - Vuetify"
@@ -41,13 +41,13 @@
     "prefix": "vThemeMinification",
     "body": [
       "Vue.use(Vuetify, {",
-      "  options: {",
-      "    minifyTheme: function () {",
-      "      return process.env.NODE_ENV === 'production'",
-      "        ? val.replace(/[\\s|\r\n|\r|\n]/g, '')",
-      "        : null",
-      "    }",
-      "  }",
+      "\toptions: {",
+      "\t\tminifyTheme: function () {",
+      "\t\t\treturn process.env.NODE_ENV === 'production'",
+      "\t\t\t\t? val.replace(/[\\s|\r\n|\r|\n]/g, '')",
+      "\t\t\t\t: null",
+      "\t\t}",
+      "\t}",
       "})$0"
     ],
     "description": "Theme minification - Vuetify"
@@ -56,14 +56,14 @@
     "prefix": "vThemeCaching",
     "body": [
       "const themeCache = LRU({",
-      "  max: 10,",
-      "  maxAge: 1000 * 60 * 60 // 1 hour",
+      "\tmax: 10,",
+      "\tmaxAge: 1000 * 60 * 60 // 1 hour",
       "})",
       "",
       "Vue.use(Vuetify, {",
-      "  options: {",
-      "    themeCache",
-      "  }",
+      "\toptions: {",
+      "\t\tthemeCache",
+      "\t}",
       "})$0"
     ],
     "description": "Theme caching - Vuetify"
@@ -72,8 +72,8 @@
     "prefix": "vFormEmailRules",
     "body": [
       "emailRules: [",
-      "  v => !!v || 'E-mail is required',",
-      "  v => /^\\w+([.-]?\\w+)*@\\w+([.-]?\\w+)*(\\.\\w{2,3})+$/.test(v) || 'E-mail must be valid'",
+      "\tv => !!v || 'E-mail is required',",
+      "\tv => /^\\w+([.-]?\\w+)*@\\w+([.-]?\\w+)*(\\.\\w{2,3})+$/.test(v) || 'E-mail must be valid'",
       "]$0"
     ],
     "description": "v-form email rule - Vuetify"
@@ -82,8 +82,8 @@
     "prefix": "vFormNameRule",
     "body": [
       "nameRules: [",
-      "  v => !!v || 'Name is required',",
-      "  v => v.length <= 10 || 'Name must be less than 10 characters'",
+      "\tv => !!v || 'Name is required',",
+      "\tv => v.length <= 10 || 'Name must be less than 10 characters'",
       "]$0"
     ],
     "description": "v-form name rule - Vuetify"
@@ -92,14 +92,14 @@
     "prefix": "vGridBreakpointObject",
     "body": [
       "breakpointObject() {",
-      "  // Use in computed property",
-      "  switch (this.$vuetify.breakpoint.name) {",
-      "    case 'xs': return '220px'",
-      "    case 'sm': return '400px'",
-      "    case 'md': return '500px'",
-      "    case 'lg': return '600px'",
-      "    case 'xl': return '800px'",
-      "  }",
+      "\t// Use in computed property",
+      "\tswitch (this.$vuetify.breakpoint.name) {",
+      "\t\tcase 'xs': return '220px'",
+      "\t\tcase 'sm': return '400px'",
+      "\t\tcase 'md': return '500px'",
+      "\t\tcase 'lg': return '600px'",
+      "\t\tcase 'xl': return '800px'",
+      "\t}",
       "}"
     ],
     "description": "Breakpoing object of Grid system - Vuetify"
