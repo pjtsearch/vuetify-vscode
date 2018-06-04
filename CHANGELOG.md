@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to `vuetify-vscode` will be documented in this file.
 
+## 0.2.0 - 2018-06-04
+### Fixed
+- Now snippets uses tab as parameter as opposed to indention in previous versions closing [#5](https://github.com/vuetifyjs/vuetify-vscode/issues/5) (thanks **@Hadoukanen**)
+
 ## 0.1.9 - 2018-05-11
 ### Added
 - `galleryBanner` option in package.json

@@ -5,7 +5,7 @@
   "icon": "img/logo.png",
   "description": "Vuetify vscode extension",
   "license": "MIT",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "publisher": "vuetifyjs",
   "galleryBanner": {
     "color": "#1E88E5",
@@ -15,7 +15,8 @@
     "vuetify",
     "vuetifyjs",
     "vuetify autocomplete",
-    "vuetify-vscode"
+    "vuetify-vscode",
+    "vue"
   ],
   "engines": {
     "vscode": "^1.5.0"
@@ -27,7 +28,10 @@
   "bugs": {
     "url": "https://github.com/vuetifyjs/vuetify-vscode/issues"
   },
-  "categories": ["Snippets", "Other"],
+  "categories": [
+    "Snippets",
+    "Other"
+  ],
   "contributes": {
     "snippets": [
       {
