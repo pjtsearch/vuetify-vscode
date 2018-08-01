@@ -1567,7 +1567,7 @@
     "body": [
       "transition=\"${1|fade-transition,slide-x-transition,slide-x-reverse-transition,slide-y-transition,slide-y-reverse-transition,scale-transition|}\""
     ],
-    "description": "Transitions available - Vueitfy"
+    "description": "Transitions available - Vuetify"
   },
   "v-alert component": {
     "prefix": "vAlert",
@@ -1576,7 +1576,7 @@
       "\t$3",
       "</v-alert>$0"
     ],
-    "description": "v-alert component - Vueitfy"
+    "description": "v-alert component - Vuetify"
   },
   "v-alert props": {
     "prefix": "vAlertProps",
@@ -1611,7 +1611,7 @@
       "\t$3",
       "</v-alert>$0"
     ],
-    "description": "v-alert cloaseble without icon - Vueitfy"
+    "description": "v-alert cloaseble without icon - Vuetify"
   },
   "v-alert closable with icon": {
     "prefix": "vAlertClosableIcon",
@@ -1620,7 +1620,7 @@
       "\t${3:Alert text}",
       "</v-alert>$0"
     ],
-    "description": "v-alert closable with icon - Vueitfy"
+    "description": "v-alert closable with icon - Vuetify"
   },
   "v-alert with icon": {
     "prefix": "vAlertIcon",
@@ -1629,7 +1629,7 @@
       "\t$4",
       "</v-alert>$0"
     ],
-    "description": "v-alert with icon - Vueitfy"
+    "description": "v-alert with icon - Vuetify"
   },
   "v-alert with no icon": {
     "prefix": "vAlertNoIcon",
@@ -1638,7 +1638,7 @@
       "\t$3",
       "</v-alert>$0"
     ],
-    "description": "v-alert with no icon - Vueitfy"
+    "description": "v-alert with no icon - Vuetify"
   },
   "v-alert with transition": {
     "prefix": "vAlertTransition",
@@ -1647,7 +1647,7 @@
       "\t$4",
       "</v-alert>$0"
     ],
-    "description": "v-alert with transition - Vueitfy"
+    "description": "v-alert with transition - Vuetify"
   },
   "v-alert outlined": {
     "prefix": "vAlertOutline",
@@ -1656,7 +1656,7 @@
       "\t$4",
       "</v-alert>$0"
     ],
-    "description": "v-alert outlined - Vueitfy"
+    "description": "v-alert outlined - Vuetify"
   },
   "v-avatar component": {
     "prefix": "vAvatar",
@@ -1668,7 +1668,7 @@
       "\t<img src=\"${3:src}\" alt=\"${4:alt}\">",
       "</v-avatar>$0"
     ],
-    "description": "v-avatar component - Vueitfy"
+    "description": "v-avatar component - Vuetify"
   },
   "v-avatar prorps": {
     "prefix": "vAvatarProps",
@@ -12641,6 +12641,6 @@
     "body": [
       "locale=\"${1|en,en-US,en-GB,fr,de,pl,nl,fi,sv,sv-se,it,es,pt,ru,pt-BR,es-MX,zh-CN,zh-TW,ja,ko|}\"$0"
     ],
-    "description": "locale - Vueitfy"
+    "description": "locale - Vuetify"
   }
 }
