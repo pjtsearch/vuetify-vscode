@@ -7434,7 +7434,7 @@
   "v-toolbar with props": {
     "prefix": "vToolbarWithProps",
     "body": [
-      ">v-toolbar",
+      "<v-toolbar",
       "\t${1:absolute}",
       "\t${2:app}",
       "\t${3:card}",
